@@ -127,7 +127,7 @@ With more time, the following enhancements could be added:
 - **Job details modal** - Expandable cards or modal view for detailed job information.
 - **Favorites/Bookmarks** - Allow users to save jobs for later viewing.
 
-## 🚩 Project Demonstrates:
+## 🚩 Project Demonstrates
 
 - ✅ **JavaScript fundamentals and logic** - Proper use of React hooks, array methods, filtering, and sorting.
 - ✅ **Code readability and structure** - Clean component architecture, organized file structure, meaningful variable names.
