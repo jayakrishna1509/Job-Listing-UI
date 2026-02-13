@@ -1,16 +1,16 @@
-# Frontend Job Listing UI
+# 📝 Frontend Job Listing UI
 
 ## Objective
 
 Build a simple Job Listing user interface that allows users to browse, search, and filter job postings. This task evaluates frontend fundamentals, logic, and basic UI/UX understanding.
 
-## Requirements
+## 🎯 Requirements
 
 - Use React, Vanilla JavaScript, or any frontend framework of your choice.
 - Use mock data (static JSON array). No backend required.
 - The application should run locally in a browser.
 
-## Job Object Structure
+## 🌐 Job Object Structure
 
 ```json
 {
@@ -22,9 +22,9 @@ Build a simple Job Listing user interface that allows users to browse, search, a
 }
 ```
 
-## Features Implemented
+## ✨ Features Implemented
 
-### Core Features
+### ⭐ Core Features
 
 - ✅ **Display a list of job cards** with title, company, location, and type.
 - ✅ **Filter jobs by location** - Dropdown filter to show jobs by location (Remote, On-site, Hybrid).
@@ -32,12 +32,12 @@ Build a simple Job Listing user interface that allows users to browse, search, a
 - ✅ **Search jobs by title** - Real-time text input search that filters jobs as you type.
 - ✅ **Basic responsive layout** - Mobile-friendly design that adapts to different screen sizes.
 
-### Bonus Features (Optional)
+### 🔥 Bonus Features (Optional)
 
 - ✅ **Sort jobs alphabetically by title** - Checkbox toggle to sort jobs A-Z.
 - ✅ **Highlight the searched keyword** - The searched text is highlighted in the job title for better visibility.
 
-## Tech Stack
+## 🔷 Tech Stack
 
 - **React 18** - UI framework
 - **Vite** - Build tool and development server
@@ -45,14 +45,14 @@ Build a simple Job Listing user interface that allows users to browse, search, a
 - **Vanilla CSS** - Custom styling with media queries for responsiveness
 - **Font Awesome** - Icons (via CDN)
 
-## Getting Started
+## ☑️ Getting Started
 
-### Prerequisites
+### 📚 Prerequisites
 
 - Node.js (LTS version recommended)
 - npm or yarn package manager
 
-### Installation
+### 🛠️ Installation
 
 1. Clone the repository:
 ```bash
@@ -65,7 +65,7 @@ cd Frontend-Job-Listing-UI
 npm install
 ```
 
-### Running the Application
+### 🔧 Running the Application
 
 Start the development server:
 ```bash
@@ -74,7 +74,7 @@ npm run dev
 
 Open the URL shown in the terminal (typically `http://localhost:5173`) in your browser.
 
-### Build for Production
+### 👉 Build for Production
 
 To create a production build:
 ```bash
@@ -82,7 +82,7 @@ npm run build
 npm run preview
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
@@ -95,7 +95,7 @@ src/
   index.css           # Global styles and responsive media queries
 ```
 
-## How It Works
+## 🔑 How It Works
 
 1. **Data Loading**: Job data is loaded from `src/data/jobs.js` as a static array.
 2. **Filtering Logic**: 
@@ -106,7 +106,7 @@ src/
 3. **Sorting**: When enabled, jobs are sorted alphabetically by title (A-Z).
 4. **Keyword Highlighting**: Searched terms are highlighted in the job title using regex matching.
 
-## Assumptions
+## 🚀 Assumptions
 
 - Job data is **static** and loaded from `src/data/jobs.js` (no backend/API required).
 - Location and job type filters dynamically populate from unique values in the mock data.
@@ -114,7 +114,7 @@ src/
 - Keyword highlighting is limited to the **title** field for clarity and performance.
 - All filters default to "All" options, showing all jobs initially.
 
-## Possible Improvements
+## ✅ Possible Improvements
 
 With more time, the following enhancements could be added:
 
@@ -127,7 +127,7 @@ With more time, the following enhancements could be added:
 - **Job details modal** - Expandable cards or modal view for detailed job information.
 - **Favorites/Bookmarks** - Allow users to save jobs for later viewing.
 
-## Project Demonstrates:
+## 🚩 Project Demonstrates:
 
 - ✅ **JavaScript fundamentals and logic** - Proper use of React hooks, array methods, filtering, and sorting.
 - ✅ **Code readability and structure** - Clean component architecture, organized file structure, meaningful variable names.
