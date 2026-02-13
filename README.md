@@ -1,10 +1,10 @@
 # 📝 Frontend Job Listing UI
 
-## Objective
+## 🎯 Objective
 
 Build a simple Job Listing user interface that allows users to browse, search, and filter job postings. This task evaluates frontend fundamentals, logic, and basic UI/UX understanding.
 
-## 🎯 Requirements
+## ⭕ Requirements
 
 - Use React, Vanilla JavaScript, or any frontend framework of your choice.
 - Use mock data (static JSON array). No backend required.
